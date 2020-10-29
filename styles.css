@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Molle:ital@1&display=swap');
+
+#header{
+	font-family: 'Molle', cursive;
+	font-size: 48px;
+	color: #264653; 
+	text-shadow: 4px 4px #E76F51;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	width: 80%;
+	background-color: #F2E1CF;
+	color: #F2E1CF;
+	margin: auto;
+}
+
+.title{
+	font-family: 'Molle', cursive;
+	font-size: 30px;
+	color: #E9C46A;
+	text-shadow: 2px 2px #264653;
+}
+
+#aboutme{
+	background-color: #E76F51;
+	text-align: center;
+	width: 500px;
+	margin: auto;
+	padding: 30px;
+	border-radius: 50%;
+}
+
+.stripes{
+	margin-bottom: 30px;
+}
+
+.points{
+	padding: 14px;
+	width: 80%;
+	margin: auto;
+}
+
+
+
+
