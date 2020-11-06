@@ -5,28 +5,107 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<h1 id="header">Hi, I'm Connie!</h1>
+
+	<div class="topnav">
+	  <a href="#aboutme">ABOUT ME</a>
+	  <a href="#projects">PROJECTS</a>
+	  <a href="#contact">CONTACT</a>
+	  <a href="media/ConnieGuanResume.pdf" target="_blank">RESUME</a>
+	</div>
+
+	<div id="headerwrapper"><a href="#"><img id="header" src="media/header.png"></a></div>
 	<div class="stripes">
-		<hr style="border: 0; height: 4px; background-color: #E76F51;">
-		<hr style="border: 0; height: 4px; background-color: #E9C46A">
-		<hr style="border: 0; height: 4px; background-color: #2A9D8F">
+		<hr style="background-color: #E76F51">
+		<hr style="background-color: #2A9D8F">
+		<hr style="background-color: #E9C46A">
 	</div>
 
-	<div id="aboutme">
-	<div class="title">A little about me</div>
-	<div id="description">
-		<div class="points"> I recently graduated from New York University with a degree in Computer Science.</div>
-		<div class="points">I am currently pursuing opportunities in software engineering and product management.</div>
-		<div class="points">My previous jobs include working as a Teaching Assistant for Girls Who Code and as a website manager for a small family-owned business.</div>
-		<div class="points">I think technology is pretty cool, I love to learn and to never stop learning, and I am tenacious in making things better.</div>
+	<div class="wrapper" id="aboutsection">
+	<div id="aboutme" class="content">
+		<div id="abouttitle" class="title">A LITTLE ABOUT ME</div>
+		<div id="about">
+		<img id="girl" src="media/girl.png" width="100%">
+		<div id="description">
+			<div class="points"> I graduated from New York University in 2020 with a B.A. in Computer Science.</div>
+			<div class="points">I have worked as a Teaching Assistant for Girls Who Code and as a website and social media manager for a small business.</div>
+			<div class="points">I am insatiably curious, excitedly fascinated about technology, and tenaciously determined to make things better.</div>
+			<div class="points">I am currently pursuing opportunities in software engineering and product management.</div>
+		</div>
+		</div>
 	</div>
 	</div>
 
-	<div id="projects">
-	<div class="title">Projects I've done</div>
-	<a href="">Workout Calendar</a>
+	<div class="stripes">
+		<hr style="background-color: #E76F51">
+		<hr style="background-color: #2A9D8F">
+		<hr style="background-color: #E9C46A">
 	</div>
 
+	<div class="wrapper" id="projects">
+	<div id="projheader" class="title">SOME THINGS I'VE BUILT</div>
+	<div id="projcontent" class="content">
+
+	<div id="wc" class="item">
+		<div class="projtitle">Workout Calendar</div>
+		<div class="container">
+		<img class="projimg" id="wc" src="media/wc.png">
+		<div class="overlay">
+			<div class="projdesc">A website that allows users to build their own workout calendars with their favorite Youtube workout videos.<br><div class="projlink"><a href="https://github.com/concon55/WorkoutCalendar" target="_blank">GitHub</a></div></div>
+		</div>
+		</div>
+	</div>
+	
+	<div id="textbot" class="item">
+		<div class="projtitle">COVID-19 Data Text Bot</div>
+		<div class="container">
+		<img class="projimg" id="textimage" src="media/text.png">
+		<div class="overlay">
+			<div class="projdesc">A SMS bot that sends updated COVID-19 data of the US or a specified state upon user request.<br>
+			<div class="projlink"><a href="https://github.com/concon55/COVID_Get_Data" target="_blank">GitHub</a></div></div>
+		</div>
+		</div>
+	</div>
+	
+	<div id="impact" class="item">
+		<div class="projtitle">Impact</div>
+		<div class="container">
+		<img class="projimg" id="impactimg" src="media/impact.png">
+		<div class="overlay">
+			<div class="projdesc" id="impactdesc">An iOS app that features a curated database of charities that updates according to current events to help users identify and contribute to trustworthy non-profit organizations. <br><div class="projlink"><a href="impact/index.html" target="_blank">About</a> <br> <a href="https://github.com/concon55/Impact-iOS" target="_blank">GitHub</a></div></div>
+		</div>
+		</div>
+	</div>
+	
+	<div id="crime" class="item">
+		<div class="projtitle">Crime: From Movies to Reality</div>
+		<div class="container">
+		<img class="projimg" id="crime" src="media/crime.png">
+		<div class="overlay">
+		<div class="projdesc" style="float: right;">
+			Used Hadoop MapReduce to analyze FBI crime data and IMDB movie data to test and predict correlation between crime movies and violent crime.<br>
+			<div class="projlink"><a href="https://github.com/SangeethVi/MoviesAndCrime" target="_blank">GitHub</a></div></div>
+		</div>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="stripes">
+		<hr style="background-color: #E76F51">
+		<hr style="background-color: #2A9D8F">
+		<hr style="background-color: #E9C46A">
+	</div>
+
+	<div class="wrapper" id="contact">
+	<div class="content">
+		<div id="contactheader" class="title">GET IN TOUCH</div>
+		<div id="contacticons">
+		<a href="https://www.linkedin.com/in/connieguan/" target="_blank"><img class="icon" src="media/linkedin.png"></a>
+		<a href="mailto:gconnie555@gmail.com"><img class="icon" src="media/email.png"></a>
+		<a href="https://github.com/concon55" target="_blank"><img class="icon" src="media/GitHub64px.png"></a>
+		</div>
+	</div>
+	</div>
 
 </body>
 </html>
